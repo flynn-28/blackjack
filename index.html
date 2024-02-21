@@ -124,7 +124,7 @@
   function formatHand(hand) {
     let html = '';
     for (let card of hand) {
-      html += `<img src="../images/${card.rank}${card.suit.charAt(0)}.png" alt="${card.rank} of ${card.suit}" class="card">`;
+      html += `<img src="images/${card.rank}${card.suit.charAt(0)}.png" alt="${card.rank} of ${card.suit}" class="card">`;
     }
     return html;
   }
